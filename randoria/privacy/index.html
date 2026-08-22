@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Datenschutz — Randoria</title>
-  <meta name="description" content="Datenschutzerklärung der Randoria-App: kein Tracking, keine Konten; Netzwerkzugriff nur, wenn du selbst eine KI-Kategorie schreiben lässt.">
+  <meta name="description" content="Datenschutzerklärung der Randoria-App: keine Konten, keine Werbung, kein Tracking; anonyme Produktstatistiken und optionale KI-Kategorien.">
   <link rel="canonical" href="https://suthi17.github.io/randoria/privacy/">
   <link rel="stylesheet" href="../styles.css">
   <link rel="icon" href="../icon.png">
@@ -15,46 +15,72 @@
 
     <article>
       <h1>Datenschutzerklärung</h1>
-      <p class="updated">Stand: 10. August 2026</p>
+      <p class="updated">Stand: 22. August 2026</p>
 
-      <p>Randoria kommt ohne Konten, ohne Tracking und ohne Werbung aus.
-      Deine Daten bleiben auf deinem Gerät — mit einer einzigen, klar
-      umrissenen Ausnahme: wenn du selbst eine KI-Kategorie schreiben
-      lässt.</p>
+      <p>Randoria kommt ohne Konten, ohne Werbung und ohne Nachverfolgung
+      über Apps oder Websites hinweg aus. Deine Spielinhalte bleiben auf
+      deinem Gerät. Die App sendet nur die unten beschriebenen anonymen
+      Statistiken und – wenn du es ausdrücklich anforderst – die Daten zum
+      Schreiben einer KI-Kategorie.</p>
 
       <ul>
         <li><strong>Deine Inhalte bleiben auf deinem Gerät.</strong> Deine
-        Listen, Fragen, Optionen, Einstellungen und auch fertig erzeugte
+        Listen, Fragen, Optionen, Einstellungen und fertig erzeugten
         KI-Kategorien liegen ausschließlich im lokalen Speicher der App auf
-        deinem iPhone. Gespielt wird immer offline.</li>
+        deinem iPhone. Beim Spielen werden keine dieser Inhalte
+        hochgeladen.</li>
         <li><strong>Keine Konten.</strong> Es gibt keine Registrierung, keinen
         Login und keine Nutzerprofile.</li>
-        <li><strong>Kein Tracking, keine Analyse, keine Werbung.</strong> Die
-        App enthält keine Analyse-Frameworks, keine Werbe-SDKs und keinen
-        Drittanbieter-Code, der Daten überträgt.</li>
+        <li><strong>Anonyme Produktstatistiken.</strong> Um zu verstehen,
+        welche Bereiche der App nützlich sind und wo technische Probleme
+        auftreten, nutzt Randoria TelemetryDeck. Übermittelt werden: welches
+        Ritual geöffnet und gestartet wird, eine grobe Nutzungs- und Gruppengröße, zu
+        welcher mitgelieferten Kategorie eine tatsächlich gezogene Karte
+        gehört oder lediglich der Wert „eigene“, das Ergebnis und die grobe Dauer
+        einer KI-Kategorie-Anfrage sowie Anzahlen nach Diagnoseart wie
+        Absturz oder Hänger. Niemals übertragen werden Spieler- oder
+        Listennamen, Fragen, Optionen, eingegebene Kategorienamen, erzeugte
+        Einträge, Antworten oder Punktestände. Die Signale enthalten
+        App-Version, Betriebssystemversion, Gerätemodell sowie Sprach- und
+        Regionseinstellungen. TelemetryDeck vergibt eine zufällige, anonyme
+        Installationskennung; Randoria übermittelt weder Name, E-Mail-Adresse,
+        Apple-ID noch Werbekennung. TelemetryDeck speichert keine IP-Adressen,
+        rundet Ereigniszeiten auf die Stunde und verarbeitet die Signale in
+        der EU. Die Daten dienen ausschließlich der Verbesserung von
+        Randoria, niemals Werbung oder Tracking. Du kannst zukünftige Signale
+        jederzeit in Randorias Einstellungen unter „Anonyme Statistiken“
+        abschalten. Mehr dazu steht in der
+        <a href="https://telemetrydeck.com/docs/guides/privacy-faq/">Datenschutzdokumentation von TelemetryDeck</a>.</li>
+        <li><strong>Absturzberichte von Apple.</strong> Apple kann dem
+        Entwickler detaillierte, symbolizierte Absturzberichte bereitstellen,
+        wenn du in iOS das Teilen von Analyse- und Diagnosedaten aktiviert
+        hast. Diese Einstellung verwaltet iOS. Randoria sendet an
+        TelemetryDeck nur Diagnoseart und Anzahl, nicht den detaillierten
+        Aufrufstapel.</li>
         <li><strong>KI-Kategorien (optional).</strong> Wenn du in einem Spiel
         „Neue Kategorie“ antippst und ein Thema eingibst, sendet die App an
         unseren eigenen Server: dein eingegebenes Thema, die gewünschte
         Sprache und eine anonyme Gerätekennung (Apples
         „identifierForVendor“). Die Kennung dient allein dazu, die Anzahl
         neuer Kategorien pro Tag zu begrenzen; sie ist nicht mit deinem
-        Namen, deiner Apple-ID oder anderen Daten verknüpft und erlaubt
-        keine Nachverfolgung über andere Apps hinweg. Unser Server reicht
-        das Thema zur Texterzeugung an OpenAI weiter; dabei werden weder
-        deine Gerätekennung noch sonstige Gerätedaten an OpenAI übermittelt.
-        Die fertigen Einträge werden auf dein Gerät geliefert und dort
-        gespeichert — auf unserem Server wird keine dauerhafte Kopie deiner
-        Themen oder Kategorien angelegt. Nutzt du die Funktion nicht, stellt
-        die App keinerlei Netzwerkverbindungen her.</li>
+        Namen, deiner Apple-ID oder anderen Daten verknüpft und erlaubt keine
+        Nachverfolgung über Apps anderer Entwickler hinweg. Unser Server
+        reicht das Thema zur Texterzeugung an OpenAI weiter; dabei werden
+        weder deine Gerätekennung noch sonstige Gerätedaten an OpenAI
+        übermittelt. Die fertigen Einträge werden auf dein Gerät geliefert
+        und dort gespeichert — unser Server behält keine dauerhafte Kopie der
+        Themen oder Kategorien.</li>
         <li><strong>Siri &amp; Kurzbefehle.</strong> Wenn du die
         Siri-Kurzbefehle der App nutzt, wird deine Anfrage von Apple gemäß
-        Apples eigenen Datenschutzbestimmungen verarbeitet; die App selbst
-        berechnet das Ergebnis nur auf deinem Gerät.</li>
+        Apples Datenschutzbestimmungen verarbeitet; die App selbst berechnet
+        das Ergebnis nur auf deinem Gerät.</li>
       </ul>
 
-      <p>Es gibt keine Server-Konten und keine dir zugeordneten Datensätze —
-      darum gibt es auch nichts zu löschen, zu exportieren oder anzufragen.
-      Mit dem Löschen der App sind alle ihre Daten entfernt.</p>
+      <p>Mit dem Löschen der App werden ihre lokalen Daten entfernt. Bereits
+      übermittelte anonyme, zusammengefasste Analysesignale können nicht mit
+      deiner Identität verbunden oder namentlich für Export oder Löschung
+      ausgewählt werden, weil Randoria weder Konten noch Identitätsdaten
+      besitzt.</p>
 
       <p>Fragen zur App beantworten wir über die
       <a href="../#support">Support-Seite</a>.</p>
@@ -64,44 +90,63 @@
 
     <article lang="en" id="english">
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated: 10 August 2026</p>
+      <p class="updated">Last updated: 22 August 2026</p>
 
-      <p>Randoria has no accounts, no tracking and no ads. Your data stays on
-      your device — with a single, clearly bounded exception: when you ask
-      the app to write an AI category for you.</p>
+      <p>Randoria has no accounts, no advertising and no tracking across apps
+      or websites. Your game content stays on your device. The app sends only
+      the anonymous statistics described below and, when you explicitly
+      request it, the data needed to write an AI category.</p>
 
       <ul>
         <li><strong>Your content stays on your device.</strong> Your lists,
         questions, options, settings and finished AI categories are stored
-        only in the app's local storage on your iPhone. Playing is always
-        offline.</li>
-        <li><strong>No accounts.</strong> The app has no sign-up, no login, and
+        only in the app's local storage on your iPhone. Playing does not
+        upload any of these contents.</li>
+        <li><strong>No accounts.</strong> The app has no sign-up, no login and
         no user profiles.</li>
-        <li><strong>No tracking, no analytics, no ads.</strong> The app contains
-        no analytics frameworks, no advertising SDKs, and no third-party code
-        that phones home.</li>
+        <li><strong>Anonymous product statistics.</strong> To understand which
+        parts of the app are useful and where technical problems occur,
+        Randoria uses TelemetryDeck. It reports which ritual is opened and
+        started, a coarse duration and group-size band, which built-in category a drawn card
+        belongs to or the single value “custom”, the result and
+        coarse duration of an AI-category request, and counts by diagnostic
+        type such as crash or hang. It never sends player or list names,
+        questions, options, typed category themes, generated entries, answers
+        or scores. Signals include app version, operating-system version,
+        device model and language/locale metadata. TelemetryDeck assigns a
+        random, anonymous installation identifier; Randoria does not provide
+        a name, email address, Apple ID or advertising identifier.
+        TelemetryDeck does not store IP addresses, rounds event times to the
+        hour and processes the signals in the EU. The data is used only to
+        improve Randoria, never for advertising or tracking. You can stop
+        future signals at any time in Randoria's Settings under “Anonymous
+        statistics”. More information is available in
+        <a href="https://telemetrydeck.com/docs/guides/privacy-faq/">TelemetryDeck's privacy documentation</a>.</li>
+        <li><strong>Crash reports from Apple.</strong> Apple may make detailed,
+        symbolicated crash reports available to the developer when you have
+        enabled sharing analytics and diagnostics in iOS. This is controlled
+        by iOS. Randoria sends only the diagnostic type and count to
+        TelemetryDeck, not the detailed call stack.</li>
         <li><strong>AI categories (optional).</strong> When you tap “Add
         category” in a game and enter a theme, the app sends to our own
-        server: the theme you typed, your preferred language, and an
-        anonymous device identifier (Apple's “identifierForVendor”). The
-        identifier exists solely to limit how many new categories can be
-        written per day; it is not linked to your name, your Apple ID or any
-        other data, and it cannot follow you across other apps. Our server
-        forwards the theme to OpenAI to generate the entries; neither your
-        device identifier nor any other device data is passed to OpenAI. The
-        finished entries are delivered to your device and stored there — our
-        server keeps no lasting copy of your themes or categories. If you
-        never use this feature, the app makes no network requests at
-        all.</li>
+        server: the theme you typed, your preferred language and an anonymous
+        device identifier (Apple's “identifierForVendor”). The identifier
+        exists solely to limit how many new categories can be written per
+        day; it is not linked to your name, Apple ID or other data and cannot
+        follow you across other developers' apps. Our server forwards the
+        theme to OpenAI to generate entries; neither your device identifier
+        nor other device data is passed to OpenAI. The finished entries are
+        delivered to your device and stored there — our server keeps no
+        lasting copy of themes or categories.</li>
         <li><strong>Siri &amp; Shortcuts.</strong> If you use the app's Siri
-        shortcuts, your request is processed by Apple according to Apple's own
-        privacy terms; the app itself only computes the result on your
-        device.</li>
+        shortcuts, your request is processed by Apple according to Apple's
+        privacy terms; the app itself computes the result on your device.</li>
       </ul>
 
-      <p>There are no server accounts and no records tied to you — so there is
-      nothing to delete, export, or request. Deleting the app removes all of
-      its data.</p>
+      <p>Deleting the app removes its local data. Anonymous, aggregated
+      analytics signals already transmitted cannot be connected to your
+      identity or selected by name for export or deletion because Randoria
+      has neither accounts nor identity data.</p>
 
       <p>Questions about the app are answered on the
       <a href="../#support">support page</a>.</p>
