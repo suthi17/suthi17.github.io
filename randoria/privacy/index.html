@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Datenschutz — Randoria</title>
-  <meta name="description" content="Datenschutzerklärung der Randoria-App: keine Konten, keine Werbung, kein Tracking; anonyme Produktstatistiken und optionale KI-Kategorien.">
+  <meta name="description" content="Datenschutzerklärung der Randoria-App: keine Konten, keine Werbung, kein Tracking; optionale anonyme Statistiken und KI-Kategorien erst nach Einwilligung.">
   <link rel="canonical" href="https://suthi17.github.io/randoria/privacy/">
   <link rel="stylesheet" href="../styles.css">
   <link rel="icon" href="../icon.png">
@@ -17,73 +17,81 @@
       <h1>Datenschutzerklärung</h1>
       <p class="updated">Stand: 22. August 2026</p>
 
-      <p>Randoria kommt ohne Konten, ohne Werbung und ohne Nachverfolgung
-      über Apps oder Websites hinweg aus. Deine Spielinhalte bleiben auf
-      deinem Gerät. Die App sendet nur die unten beschriebenen anonymen
-      Statistiken und – wenn du es ausdrücklich anforderst – die Daten zum
-      Schreiben einer KI-Kategorie.</p>
+      <h2>Verantwortlicher und Kontakt</h2>
+      <p>Verantwortlicher ist der Anbieter, der auf Randorias
+      App-Store-Produktseite genannt wird. Datenschutz- und Supportanfragen
+      können über die <a href="../#support">Support-Seite</a> gestellt werden.</p>
 
+      <p>Randoria kommt ohne Konten, Werbung und Nachverfolgung über Apps oder
+      Websites hinweg aus. Alle Kernrituale funktionieren lokal. Daten
+      verlassen das Gerät nur nach den unten beschriebenen Entscheidungen.</p>
+
+      <h2>Verarbeitete Daten</h2>
       <ul>
-        <li><strong>Deine Inhalte bleiben auf deinem Gerät.</strong> Deine
-        Listen, Fragen, Optionen, Einstellungen und fertig erzeugten
-        KI-Kategorien liegen ausschließlich im lokalen Speicher der App auf
-        deinem iPhone. Beim Spielen werden keine dieser Inhalte
-        hochgeladen.</li>
-        <li><strong>Keine Konten.</strong> Es gibt keine Registrierung, keinen
-        Login und keine Nutzerprofile.</li>
-        <li><strong>Anonyme Produktstatistiken.</strong> Um zu verstehen,
-        welche Bereiche der App nützlich sind und wo technische Probleme
-        auftreten, nutzt Randoria TelemetryDeck. Übermittelt werden: welches
-        Ritual geöffnet und gestartet wird, eine grobe Nutzungs- und Gruppengröße, zu
-        welcher mitgelieferten Kategorie eine tatsächlich gezogene Karte
-        gehört oder lediglich der feste technische Wert <code>custom</code>, das Ergebnis und die grobe Dauer
-        einer KI-Kategorie-Anfrage sowie Anzahlen nach Diagnoseart wie
-        Absturz oder Hänger. Niemals übertragen werden Spieler- oder
-        Listennamen, Fragen, Optionen, eingegebene Kategorienamen, erzeugte
-        Einträge, Antworten oder Punktestände. Die Signale enthalten
-        App-Version, Betriebssystemversion, Gerätemodell sowie Sprach- und
-        Regionseinstellungen. TelemetryDeck vergibt eine zufällige, anonyme
-        Installationskennung; Randoria übermittelt weder Name, E-Mail-Adresse,
-        Apple-ID noch Werbekennung. TelemetryDeck speichert keine IP-Adressen,
-        rundet Ereigniszeiten auf die Stunde und verarbeitet die Signale in
-        der EU. Die Daten dienen ausschließlich der Verbesserung von
-        Randoria, niemals Werbung oder Tracking. Du kannst zukünftige Signale
-        jederzeit in Randorias Einstellungen unter „Anonyme Statistiken“
-        abschalten. Mehr dazu steht in der
-        <a href="https://telemetrydeck.com/docs/guides/privacy-faq/">Datenschutzdokumentation von TelemetryDeck</a>.</li>
-        <li><strong>Absturzberichte von Apple.</strong> Apple kann dem
-        Entwickler detaillierte, symbolizierte Absturzberichte bereitstellen,
-        wenn du in iOS das Teilen von Analyse- und Diagnosedaten aktiviert
-        hast. Diese Einstellung verwaltet iOS. Randoria sendet an
-        TelemetryDeck nur Diagnoseart und Anzahl, nicht den detaillierten
-        Aufrufstapel.</li>
-        <li><strong>KI-Kategorien (optional).</strong> Wenn du in einem Spiel
-        „Neue Kategorie“ antippst und ein Thema eingibst, sendet die App an
-        unseren eigenen Server: dein eingegebenes Thema, die gewünschte
-        Sprache und eine anonyme Gerätekennung (Apples
-        „identifierForVendor“). Die Kennung dient allein dazu, die Anzahl
-        neuer Kategorien pro Tag zu begrenzen; sie ist nicht mit deinem
-        Namen, deiner Apple-ID oder anderen Daten verknüpft und erlaubt keine
-        Nachverfolgung über Apps anderer Entwickler hinweg. Unser Server
-        reicht das Thema zur Texterzeugung an OpenAI weiter; dabei werden
-        weder deine Gerätekennung noch sonstige Gerätedaten an OpenAI
-        übermittelt. Die fertigen Einträge werden auf dein Gerät geliefert
-        und dort gespeichert — unser Server behält keine dauerhafte Kopie der
-        Themen oder Kategorien.</li>
-        <li><strong>Siri &amp; Kurzbefehle.</strong> Wenn du die
-        Siri-Kurzbefehle der App nutzt, wird deine Anfrage von Apple gemäß
-        Apples Datenschutzbestimmungen verarbeitet; die App selbst berechnet
-        das Ergebnis nur auf deinem Gerät.</li>
+        <li><strong>Lokale Spielinhalte.</strong> Listen, Namen, Fragen,
+        Optionen, Einstellungen, fertige KI-Kategorien und Spielstände bleiben
+        lokal. Beim Spielen wird nichts davon hochgeladen. Das Löschen der App
+        entfernt diese Daten.</li>
+        <li><strong>Optionale anonyme Statistiken.</strong> Erst nach
+        „Anonyme Statistiken teilen“ erhält TelemetryDeck begrenzte Ereignisse:
+        Ritual, grobe Dauer und Gruppengröße, feste ID einer genutzten
+        mitgelieferten Kategorie (oder nur <code>custom</code>), grobes
+        KI-Anfrageergebnis sowie Diagnoseart/-anzahl. Dazu kommen App-/iOS-
+        Version, Gerätemodell, Region/Sprache und eine zufällige anonyme
+        Installationskennung. Namen, Fragen, Themen, erzeugte Einträge,
+        Antworten und Punktestände werden nie gesendet. Bei Ablehnung startet
+        das SDK nicht. Widerruf ist jederzeit in den Einstellungen möglich.
+        Rechtsgrundlage: Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).</li>
+        <li><strong>Optionale KI-Kategorien.</strong> Vor der ersten Anfrage
+        erklärt Randoria die Weitergabe und fragt nach Einwilligung. Thema und
+        Sprache gehen an Randorias Server bei Vercel und danach an OpenAI.
+        Apples <code>identifierForVendor</code> geht nur zur Ratenbegrenzung an
+        Randoria, nicht an OpenAI. Spielernamen, Listen und bestehende
+        Kategorien werden nicht gesendet. Rechtsgrundlagen: Einwilligung und
+        Bereitstellung der gewünschten Funktion (Art. 6 Abs. 1 lit. a/b),
+        Missbrauchs- und Kostenschutz als berechtigtes Interesse (lit. f).
+        Ein Widerruf stoppt neue Anfragen; lokal gespeicherte Kategorien bleiben.</li>
+        <li><strong>Apple-Diagnosen und Kurzbefehle.</strong> Apple kann gemäß
+        der iOS-Einstellung symbolizierte Absturzberichte bereitstellen.
+        Detaillierte Aufrufstapel bleiben bei Apple; Randoria übermittelt nach
+        Einwilligung nur anonyme Diagnoseanzahlen. Siri/Kurzbefehle verarbeitet
+        Apple nach seinen Bedingungen, das Ritualergebnis entsteht lokal.</li>
       </ul>
 
-      <p>Mit dem Löschen der App werden ihre lokalen Daten entfernt. Bereits
-      übermittelte anonyme, zusammengefasste Analysesignale können nicht mit
-      deiner Identität verbunden oder namentlich für Export oder Löschung
-      ausgewählt werden, weil Randoria weder Konten noch Identitätsdaten
-      besitzt.</p>
+      <h2>Empfänger, Speicherdauer und Sicherheit</h2>
+      <ul>
+        <li><strong>Randoria/Vercel:</strong> Rohes Thema, Sprache und Geräte-ID
+        werden vorübergehend verarbeitet. Ratenlimit-Hashes/Zähler laufen nach
+        etwa 26 Stunden ab. Ein themenabgeleiteter Cache-Schlüssel samt
+        Eignungsurteil/Achsen kann 30 Tage bleiben; der rohe Themenwortlaut ist
+        kein Cachewert. Logs enthalten nur freigegebene Route-/Ritual-/Status-
+        und Dauerangaben, nie Thema, Geräte-ID, IP oder erzeugten Inhalt.</li>
+        <li><strong>OpenAI:</strong> erhält Thema und erzeugte/geprüfte Texte,
+        nicht die Geräte-ID. Ein-/Ausgaben von
+        <code>/v1/chat/completions</code> können zur Missbrauchsprävention bis
+        zu 30 Tage gespeichert werden. Moderationsanfragen werden laut
+        Endpunktregel nicht als Anwendungszustand gespeichert. API-Daten dienen
+        ohne ausdrückliches Opt-in nicht dem Modelltraining.</li>
+        <li><strong>TelemetryDeck:</strong> erhält nur die anonymen Signale,
+        verarbeitet sie in der EU, speichert keine IP-Adressen und rundet
+        Ereigniszeiten auf die Stunde. Signale bleiben beim Projekt, solange
+        sie für Produktanalysen benötigt werden; Tarif-Abfragefenster sind
+        keine Löschfristen. Ohne Identitätsbezug ist keine namentliche
+        Einzellöschung möglich.</li>
+        <li><strong>Internationale Verarbeitung:</strong> Anbieter können Daten
+        außerhalb des EWR auf Grundlage ihrer Auftragsverarbeitungsbedingungen
+        und geeigneter Garantien verarbeiten.</li>
+      </ul>
+      <p>Anfragen sind transportverschlüsselt. Das Backend weist alte Clients
+      ohne aktuelle Offenlegungsversion ab, begrenzt teure Routen und blockiert
+      Ausgaben, wenn die Moderation nicht erreichbar ist.</p>
 
-      <p>Fragen zur App beantworten wir über die
-      <a href="../#support">Support-Seite</a>.</p>
+      <h2>Deine Rechte</h2>
+      <p>Soweit die DSGVO gilt, bestehen Rechte auf Auskunft, Berichtigung,
+      Löschung, Einschränkung, Datenübertragbarkeit und Widerspruch sowie ein
+      Beschwerderecht bei einer Datenschutzaufsicht. Einwilligungen können mit
+      Wirkung für die Zukunft widerrufen werden. Randoria kann anonyme Signale
+      mangels Konto und Identitätszuordnung nicht namentlich abrufen.</p>
     </article>
 
     <hr class="divider">
@@ -92,69 +100,76 @@
       <h1>Privacy Policy</h1>
       <p class="updated">Last updated: 22 August 2026</p>
 
-      <p>Randoria has no accounts, no advertising and no tracking across apps
-      or websites. Your game content stays on your device. The app sends only
-      the anonymous statistics described below and, when you explicitly
-      request it, the data needed to write an AI category.</p>
+      <h2>Controller and contact</h2>
+      <p>The controller is the provider identified on Randoria's App Store
+      product page. Privacy and support requests can be submitted through the
+      <a href="../#support">support page</a>.</p>
 
+      <p>Randoria has no accounts, advertising or cross-app/website tracking.
+      All core rituals work locally. Data leaves the device only after the
+      choices described below.</p>
+
+      <h2>Data processed</h2>
       <ul>
-        <li><strong>Your content stays on your device.</strong> Your lists,
-        questions, options, settings and finished AI categories are stored
-        only in the app's local storage on your iPhone. Playing does not
-        upload any of these contents.</li>
-        <li><strong>No accounts.</strong> The app has no sign-up, no login and
-        no user profiles.</li>
-        <li><strong>Anonymous product statistics.</strong> To understand which
-        parts of the app are useful and where technical problems occur,
-        Randoria uses TelemetryDeck. It reports which ritual is opened and
-        started, a coarse duration and group-size band, which built-in category a drawn card
-        belongs to or the single value “custom”, the result and
-        coarse duration of an AI-category request, and counts by diagnostic
-        type such as crash or hang. It never sends player or list names,
-        questions, options, typed category themes, generated entries, answers
-        or scores. Signals include app version, operating-system version,
-        device model and language/locale metadata. TelemetryDeck assigns a
-        random, anonymous installation identifier; Randoria does not provide
-        a name, email address, Apple ID or advertising identifier.
-        TelemetryDeck does not store IP addresses, rounds event times to the
-        hour and processes the signals in the EU. The data is used only to
-        improve Randoria, never for advertising or tracking. You can stop
-        future signals at any time in Randoria's Settings under “Anonymous
-        statistics”. More information is available in
-        <a href="https://telemetrydeck.com/docs/guides/privacy-faq/">TelemetryDeck's privacy documentation</a>.</li>
-        <li><strong>Crash reports from Apple.</strong> Apple may make detailed,
-        symbolicated crash reports available to the developer when you have
-        enabled sharing analytics and diagnostics in iOS. This is controlled
-        by iOS. Randoria sends only the diagnostic type and count to
-        TelemetryDeck, not the detailed call stack.</li>
-        <li><strong>AI categories (optional).</strong> When you tap “Add
-        category” in a game and enter a theme, the app sends to our own
-        server: the theme you typed, your preferred language and an anonymous
-        device identifier (Apple's “identifierForVendor”). The identifier
-        exists solely to limit how many new categories can be written per
-        day; it is not linked to your name, Apple ID or other data and cannot
-        follow you across other developers' apps. Our server forwards the
-        theme to OpenAI to generate entries; neither your device identifier
-        nor other device data is passed to OpenAI. The finished entries are
-        delivered to your device and stored there — our server keeps no
-        lasting copy of themes or categories.</li>
-        <li><strong>Siri &amp; Shortcuts.</strong> If you use the app's Siri
-        shortcuts, your request is processed by Apple according to Apple's
-        privacy terms; the app itself computes the result on your device.</li>
+        <li><strong>Local game content.</strong> Lists, names, questions,
+        options, settings, finished AI categories and game state remain local.
+        Playing uploads none of them. Deleting the app removes this data.</li>
+        <li><strong>Optional anonymous statistics.</strong> Only after “Share
+        anonymous statistics”, TelemetryDeck receives bounded ritual events,
+        coarse duration/participant bands, a finite built-in category ID (or
+        only <code>custom</code>), coarse AI outcomes and diagnostic type/count.
+        SDK metadata includes app/OS version, device model, locale and a random
+        anonymous installation ID. Names, questions, themes, generated entries,
+        answers and scores are never sent. Declining leaves the SDK
+        uninitialized; consent can be withdrawn in Settings. Legal basis:
+        consent (GDPR Art. 6(1)(a)).</li>
+        <li><strong>Optional AI categories.</strong> Before the first request,
+        Randoria explains the transfer and asks for consent. Theme/language go
+        to Randoria's Vercel server and then OpenAI. Apple's
+        <code>identifierForVendor</code> goes only to Randoria for rate limiting,
+        never OpenAI. Player names, lists and existing categories are not sent.
+        Legal bases: consent/requested service (Art. 6(1)(a)/(b)); abuse/cost
+        protection (legitimate interests, Art. 6(1)(f)). Withdrawal stops new
+        requests but leaves on-device categories intact.</li>
+        <li><strong>Apple diagnostics and Shortcuts.</strong> Apple may provide
+        symbolicated crashes according to the iOS setting. Detailed stacks stay
+        with Apple; Randoria forwards only anonymous counts after consent.
+        Apple processes Siri/Shortcuts; Randoria computes results locally.</li>
       </ul>
 
-      <p>Deleting the app removes its local data. Anonymous, aggregated
-      analytics signals already transmitted cannot be connected to your
-      identity or selected by name for export or deletion because Randoria
-      has neither accounts nor identity data.</p>
+      <h2>Recipients, retention and security</h2>
+      <ul>
+        <li><strong>Randoria/Vercel:</strong> raw theme, language and device ID
+        are transient. Rate-limit hashes/counters expire after about 26 hours.
+        A theme-derived cache key plus suitability verdict/axes may remain 30
+        days; the raw theme is not the cache value. Logs contain only allow-
+        listed route/ritual/status/count/duration data, never theme, device ID,
+        IP or generated content.</li>
+        <li><strong>OpenAI:</strong> gets the theme and generated/checked text,
+        not the device ID. Chat-completion input/output may be retained up to
+        30 days for abuse prevention. Moderation requests are not retained as
+        application state under the endpoint policy. API data is not used for
+        training unless explicitly opted in.</li>
+        <li><strong>TelemetryDeck:</strong> gets only the anonymous signals,
+        processes in the EU, retains no IP addresses and rounds event times to
+        the hour. Signals stay with the project while needed for analysis; plan
+        query windows are not deletion deadlines. There is no named individual
+        deletion without an identity mapping.</li>
+        <li><strong>International processing:</strong> providers may process
+        outside the EEA under their data-processing terms and safeguards.</li>
+      </ul>
+      <p>Transport is encrypted. The backend rejects old clients without the
+      current disclosure version, rate-limits costly routes and fails closed
+      when output moderation is unavailable.</p>
 
-      <p>Questions about the app are answered on the
-      <a href="../#support">support page</a>.</p>
+      <h2>Your rights</h2>
+      <p>Where GDPR applies, you may request access, rectification, erasure,
+      restriction or portability, object, and complain to a data-protection
+      authority. Consent can be withdrawn for the future. Randoria cannot find
+      anonymous signals by name because it keeps no account/identity mapping.</p>
     </article>
 
-    <footer>
-      © 2026 Randoria · <a href="../">Randoria</a>
-    </footer>
+    <footer>© 2026 Randoria · <a href="../">Randoria</a></footer>
   </div>
 </body>
 </html>
