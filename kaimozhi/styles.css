@@ -49,7 +49,9 @@ h1, h2 {
 }
 
 h1 { font-size: 2.4rem; margin-top: 1.2rem; }
-article h1 { font-size: 2rem; margin-top: 0; }
+/* „Datenschutzerklärung“ ist ein langes Wort: auf Handybreite kleiner und
+   notfalls getrennt, statt über den Rand zu laufen. */
+article h1 { font-size: clamp(1.5rem, 7.5vw, 2rem); margin-top: 0; hyphens: auto; overflow-wrap: break-word; }
 h2 { font-size: 1.3rem; margin: 2.2rem 0 0.7rem; }
 
 .tagline { color: var(--muted); font-size: 1.1rem; margin-top: 0.3rem; }
