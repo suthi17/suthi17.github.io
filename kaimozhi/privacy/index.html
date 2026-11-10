@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutz — KaiMozhi</title>
+  <meta name="description" content="Datenschutzerklärung der KaiMozhi-App: kein Konto, keine Werbung, kein Tracking; Handfotos gehen erst nach ausdrücklicher Einwilligung zur Auswertung an OpenAI.">
+  <link rel="canonical" href="https://suthi17.github.io/kaimozhi/privacy/">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="icon" href="../icon.png">
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="../">← KaiMozhi</a>
+
+    <article>
+      <h1>Datenschutzerklärung</h1>
+      <p class="updated">Stand: 10. November 2026</p>
+
+      <h2>Verantwortlicher und Kontakt</h2>
+      <p>Verantwortlich ist der Anbieter, der auf der App-Store-Produktseite von
+      KaiMozhi genannt wird (Herausgeber: Arabs Family). Datenschutz- und
+      Supportanfragen kannst du über die <a href="../#support">Support-Seite</a>
+      stellen.</p>
+
+      <p>KaiMozhi kommt ohne Konto, Registrierung, Werbung und Tracking aus. Fast
+      alles bleibt auf deinem Gerät. Nur zur Auswertung gehen Daten an einen
+      KI-Anbieter, und zwar erst nach deiner ausdrücklichen Einwilligung.</p>
+
+      <h2>Daten, die auf deinem Gerät bleiben</h2>
+      <ul>
+        <li>Fotos der Hände in voller Auflösung und die Messwerte der Fotoprüfung
+        (Hand erkannt, Licht, Schärfe), die auf dem Gerät läuft.</li>
+        <li>Angelegte Personen: Name oder Spitzname, Schreibhand, Sprache der Deutung.</li>
+        <li>Fertige Analysen, Berichte und Einstellungen (Sprache, Stand der Einwilligung).</li>
+      </ul>
+      <p>Wir erhalten diese Daten nicht. Sie liegen im geschützten Speicher der App,
+      sind vom Backup ausgenommen und bei gesperrtem Gerät verschlüsselt. Löschst du
+      eine Analyse oder Person, verschwinden auch ihre Fotos. Gastanalysen, die du
+      keiner Person zuordnest, werden beim nächsten Start gelöscht. Geteilte PDFs
+      liegen nur vorübergehend auf dem Gerät. Mit der App ist alles weg.</p>
+
+      <h2>Kamera und Mediathek</h2>
+      <p>Die App fragt vor dem ersten Foto nach dem Zugriff auf die Kamera und nutzt
+      ihn nur für die Fotos der Hände. Wählst du Fotos aus der Mediathek, erhält die
+      App nur die ausgewählten Bilder, keinen Zugriff auf die übrige Mediathek.</p>
+
+      <h2>Auswertung durch OpenAI</h2>
+      <ul>
+        <li><strong>Was:</strong> zum Erkennen der Merkmale verkleinerte Kopien der
+        Handfotos (längste Kante höchstens 1536 Pixel) samt zwei Ausschnitten der
+        Handfläche, die Angabe, welche Hand es ist, und der Merkmalskatalog der App;
+        für die Deutung die erkannten Merkmale, die passenden Regeln, die Schreibhand
+        und die Sprache der Deutung. Keine Namen, keine Kontaktdaten, kein Standort,
+        keine Werbe-ID.</li>
+        <li><strong>Wozu:</strong> OpenAI erkennt sichtbare Merkmale der Hände und
+        formuliert aus den Treffern der Regeln den Text der Deutung. Die Regeln
+        selbst laufen auf dem Gerät.</li>
+        <li><strong>Rechtsgrundlage:</strong> deine ausdrückliche Einwilligung
+        (Art. 6 Abs. 1 lit. a DSGVO). Die Fotos zeigen deinen Körper, dienen aber nur
+        dem Lesen der Hand, nicht deiner Identifizierung. Weil sie ins Ausland gehen,
+        holen wir die Einwilligung vorsorglich auch in der Form von Art. 9 Abs. 2
+        lit. a DSGVO ein. Ohne Einwilligung bleibt die App nutzbar, nur nicht das
+        Scannen.</li>
+        <li><strong>Speicherdauer:</strong> KaiMozhi schaltet bei OpenAI die
+        Speicherung zum späteren Abruf ab (<code>store: false</code>). Davon getrennt
+        darf OpenAI Daten aus der API bis zu 30 Tage zur Erkennung von Missbrauch
+        aufbewahren. API-Daten dienen ohne ausdrückliches Opt-in nicht dem Training.</li>
+      </ul>
+
+      <h2>Unser Weiterleitungsdienst</h2>
+      <p>Die App spricht nicht direkt mit OpenAI, sondern mit unserem eigenen Dienst
+      <code>kaimozhi-proxy.vercel.app</code> bei Vercel in der Region Frankfurt. Er
+      prüft mit Apples App Attest, dass die Anfrage aus der echten App kommt, leitet
+      sie weiter und speichert dabei weder Fotos noch Texte. Zur Anmeldung erzeugt
+      dein Gerät einen Schlüssel, dessen privater Teil das Gerät nie verlässt; der
+      Dienst erhält nur den öffentlichen Teil und eine zufällige Kennung dieses
+      Schlüssels, keine Geräte- oder Werbe-ID. Wie bei jedem Aufruf im Internet sieht
+      der Dienst deine IP-Adresse; Vercel hält Zeitpunkt, Adresse und Statuscode
+      kurzzeitig in technischen Protokollen fest. Unsere eigenen Protokolle enthalten
+      nur Fehlerart und Statuscode, nie Fotos, Texte oder Kennungen. Rechtsgrundlage
+      dafür ist neben deiner Einwilligung unser berechtigtes Interesse an Schutz vor
+      Missbrauch und Kosten (Art. 6 Abs. 1 lit. f DSGVO).</p>
+
+      <h2>Empfänger und Drittländer</h2>
+      <p>Empfänger sind OpenAI und Vercel als Auftragsverarbeiter. Beide können Daten
+      außerhalb des EWR, insbesondere in den USA, verarbeiten, auf Grundlage ihrer
+      Bedingungen zur Auftragsverarbeitung und geeigneter Garantien
+      (EU-US Data Privacy Framework bzw. EU-Standardvertragsklauseln).</p>
+
+      <h2>Hände anderer Menschen</h2>
+      <p>Scannst du die Hände eines anderen Menschen, brauchst du vorher dessen
+      Einverständnis zur Aufnahme und zur Auswertung durch KI. Die App weist vor
+      jedem Scan darauf hin.</p>
+
+      <h2>Keine Analyse- oder Werbedienste</h2>
+      <p>Die App enthält keine Analyse-, Tracking- oder Werbe-SDKs. Für Download und
+      Updates ist Apple verantwortlich. Absturzberichte erhalten wir nur, wenn du das
+      in den iOS-Einstellungen erlaubt hast, und dann zusammengefasst über Apple.</p>
+
+      <h2>Deine Rechte</h2>
+      <p>Soweit die DSGVO gilt, hast du Rechte auf Auskunft, Berichtigung, Löschung,
+      Einschränkung, Datenübertragbarkeit und Widerspruch sowie ein Beschwerderecht
+      bei einer Datenschutzaufsicht. Deine Einwilligung kannst du jederzeit mit
+      Wirkung für die Zukunft widerrufen: in der App unter Einstellungen →
+      Datenschutz. Danach werden keine Fotos mehr gesendet. Da wir die Daten auf
+      deinem Gerät nicht erhalten, übst du die meisten Rechte direkt in der App aus.</p>
+
+      <h2>Kinder</h2>
+      <p>Unter 16 Jahren ist die Einwilligung nur mit Zustimmung der Eltern wirksam.</p>
+
+      <h2>Änderungen</h2>
+      <p>Ändert sich, was gesendet wird oder an wen, passen wir diese Erklärung an und
+      fragen in der App vor dem nächsten Scan erneut nach der Einwilligung.</p>
+    </article>
+
+    <hr class="divider">
+
+    <article lang="en" id="english">
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: 10 November 2026</p>
+
+      <h2>Controller and contact</h2>
+      <p>The controller is the provider identified on KaiMozhi's App Store product
+      page (publisher: Arabs Family). Privacy and support requests can be submitted
+      through the <a href="../#support">support page</a>.</p>
+
+      <p>KaiMozhi has no account, registration, advertising or tracking. Almost
+      everything stays on your device. Data is sent to an AI provider for analysis
+      only after your explicit consent.</p>
+
+      <h2>Data that stays on your device</h2>
+      <ul>
+        <li>Full-resolution hand photos and the results of the on-device photo check
+        (hand detected, light, sharpness).</li>
+        <li>People you add: name or nickname, writing hand, reading language.</li>
+        <li>Finished analyses, reports and settings (language, consent status).</li>
+      </ul>
+      <p>We do not receive this data. It sits in the app's protected storage,
+      excluded from backups and encrypted while the device is locked. Deleting an
+      analysis or person deletes its photos. Guest analyses not assigned to a person
+      are deleted on the next launch. Shared PDFs are kept only temporarily.
+      Deleting the app removes everything.</p>
+
+      <h2>Camera and photo library</h2>
+      <p>The app asks for camera access before the first photo and uses it only for
+      hand photos. When you pick photos from your library, the app receives only the
+      selected images, with no access to the rest of the library.</p>
+
+      <h2>Analysis by OpenAI</h2>
+      <ul>
+        <li><strong>What:</strong> for feature recognition, downscaled copies of the
+        hand photos (longest edge at most 1536 pixels) plus two crops of the palm,
+        which hand it is, and the app's feature catalogue; for the reading, the
+        recognised features, matching rules, writing hand and reading language. No
+        names, contact details, location or advertising ID.</li>
+        <li><strong>Why:</strong> OpenAI recognises visible features of the hands and
+        phrases the reading from the rules that matched. The rules run on the
+        device.</li>
+        <li><strong>Legal basis:</strong> your explicit consent (GDPR Art. 6(1)(a)).
+        The photos show your body but serve only to read the hand, not to identify
+        you. Because they leave the country, consent is also obtained in the form of
+        Art. 9(2)(a) as a precaution. Without consent the app remains usable except
+        for scanning.</li>
+        <li><strong>Retention:</strong> KaiMozhi disables storage for later retrieval
+        at OpenAI (<code>store: false</code>). Separately, OpenAI may retain API data
+        for up to 30 days for abuse monitoring. API data is not used for training
+        unless explicitly opted in.</li>
+      </ul>
+
+      <h2>Our relay service</h2>
+      <p>The app does not talk to OpenAI directly but to our own service
+      <code>kaimozhi-proxy.vercel.app</code>, hosted by Vercel in Frankfurt. It uses
+      Apple's App Attest to verify that requests come from the genuine app, forwards
+      them and stores neither photos nor text. To register, your device creates a key
+      whose private part never leaves the device; the service receives only the
+      public part and a random identifier of that key, no device or advertising ID.
+      Like any internet request, the service sees your IP address; Vercel briefly
+      keeps time, address and status code in technical logs. Our own logs contain
+      only error type and status code, never photos, text or identifiers. Besides
+      your consent, the legal basis is our legitimate interest in preventing abuse
+      and cost (Art. 6(1)(f)).</p>
+
+      <h2>Recipients and international transfers</h2>
+      <p>Recipients are OpenAI and Vercel as processors. Both may process data
+      outside the EEA, in particular in the USA, under their data-processing terms
+      and appropriate safeguards (EU-US Data Privacy Framework or Standard
+      Contractual Clauses).</p>
+
+      <h2>Other people's hands</h2>
+      <p>If you scan another person's hands, you need their prior consent to the
+      photos and to the AI analysis. The app reminds you before every scan.</p>
+
+      <h2>No analytics or advertising</h2>
+      <p>The app contains no analytics, tracking or advertising SDKs. Apple is
+      responsible for downloads and updates. We receive crash reports only if you
+      allowed this in iOS settings, and then only aggregated through Apple.</p>
+
+      <h2>Your rights</h2>
+      <p>Where GDPR applies, you may request access, rectification, erasure,
+      restriction or portability, object, and complain to a data-protection
+      authority. You can withdraw consent at any time for the future in the app
+      under Settings → Privacy; no further photos are sent afterwards. Because we do
+      not receive the data on your device, you exercise most rights directly in the
+      app.</p>
+
+      <h2>Children</h2>
+      <p>Under the age of 16, consent is valid only with parental approval.</p>
+
+      <h2>Changes</h2>
+      <p>If what is sent or to whom changes, we update this policy and ask for
+      consent again in the app before the next scan.</p>
+    </article>
+
+    <footer>© 2026 Arabs Family · <a href="../">KaiMozhi</a></footer>
+  </div>
+</body>
+</html>
